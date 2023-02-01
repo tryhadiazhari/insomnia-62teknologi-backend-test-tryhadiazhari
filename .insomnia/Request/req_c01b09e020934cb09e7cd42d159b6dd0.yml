@@ -1,18 +1,18 @@
-_id: req_bbe89744db7348fcab64fe5739d4a736
+_id: req_c01b09e020934cb09e7cd42d159b6dd0
 type: Request
 parentId: fld_d988feb8d12243fb82d1755f7c17c13d
-modified: 1675288237460
-created: 1675247357852
-url: "{{ _.business_endpoint }}/v1/business"
-name: Create
+modified: 1675288468940
+created: 1675280448926
+url: "{{ _.business_endpoint }}/v1/business/65Lz4JRABF504A9T"
+name: Update
 description: ""
-method: POST
+method: PUT
 body:
   mimeType: application/json
   text: >-
     {
-    	"alias": "levain-bakery-new-york",
-    	"name": "Levain Bakery",
+    	"alias": "levain-bakerysss-new-york",
+    	"name": "Levainss Bakeryss",
       "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/DH29qeTmPotJbCSzkjYJwg/o.jpg",
       "is_closed": false,
       "url": "https://www.yelp.com/biz/levain-bakery-new-york?adjust_creative=DSj6I8qbyHf-Zm2fGExuug&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=DSj6I8qbyHf-Zm2fGExuug",
@@ -49,7 +49,7 @@ headers:
 authentication:
   type: bearer
   token: "{{ _.user_token }}"
-metaSortKey: -1675247357852
+metaSortKey: -1675247353286.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
