@@ -1,0 +1,21 @@
+_id: req_482b3757be724ad9ad7d342a97ff519c
+type: Request
+parentId: fld_858b52f93b4c46528f2b1687718733a3
+modified: 1675253970835
+created: 1675253958047
+url: "{{ _.business_endpoint }}/v1/register"
+name: Create
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1675253958047
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,14 @@
+_id: env_8298387e70964080acc89a0db3fd2b7f
+type: Environment
+parentId: env_ea8d0b4c6734bc75e9f8cd5387c26f8f6ac412a6
+modified: 1675253888427
+created: 1675253880608
+name: localhost
+data:
+  business_endpoint: http://localhost:8000/api
+dataPropertyOrder:
+  "&":
+    - business_endpoint
+color: null
+isPrivate: false
+metaSortKey: 1675253880609

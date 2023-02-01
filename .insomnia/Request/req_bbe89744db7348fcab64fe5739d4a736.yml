@@ -1,0 +1,51 @@
+_id: req_bbe89744db7348fcab64fe5739d4a736
+type: Request
+parentId: fld_d988feb8d12243fb82d1755f7c17c13d
+modified: 1675252890729
+created: 1675247357852
+url: "{{ _.business_endpoint }}/v1/business"
+name: Add Business
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"name": "Levain Bakery",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/DH29qeTmPotJbCSzkjYJwg/o.jpg",
+      "is_closed": 0,
+      "url": "https://www.yelp.com/biz/levain-bakery-new-york?adjust_creative=DSj6I8qbyHf-Zm2fGExuug&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=DSj6I8qbyHf-Zm2fGExuug",
+    	"categories": [
+    		{
+    			"title": "ok"
+    		}
+    	],
+      "coordinates": {
+    			"latitude": 40.779961,
+    			"longitude": -73.980299
+    	},
+      "location": {
+    		"address1": "167 W 74th St",
+    		"address2": "",
+    		"address3": "",
+    		"city": "New York",
+    		"zip_code": 10023,
+    		"country": "US",
+    		"state": "NY"
+    	},
+      "country_code": 62,
+      "phone": 0
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1675247357852
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
