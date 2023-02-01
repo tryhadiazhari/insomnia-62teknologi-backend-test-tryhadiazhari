@@ -1,0 +1,25 @@
+_id: req_c662d3c468b04fe7bb9daafb1891cc05
+type: Request
+parentId: fld_d988feb8d12243fb82d1755f7c17c13d
+modified: 1675280317935
+created: 1675277003703
+url: "{{ _.business_endpoint }}/v1/business/C2GiIYAmEOksJtXN"
+name: Delete
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1675247348721
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
